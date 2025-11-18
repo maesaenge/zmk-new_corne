@@ -592,6 +592,7 @@
         sd_shift_del {
             bindings = <&kp LS(DELETE)>;
             key-positions = <15 16>;
+            layers = <>;
         };
 
         combo_double_click: combo_double_click {
