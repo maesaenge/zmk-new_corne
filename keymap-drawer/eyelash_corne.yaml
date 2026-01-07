@@ -14,7 +14,7 @@ layers:
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
   - '&UC_BS'
-  - '&td0'
+  - {t: '$$mdi:apple-keyboard-caps$$', h: F}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -357,7 +357,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - F4
   - F5
   - F6
