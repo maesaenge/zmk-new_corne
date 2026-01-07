@@ -665,10 +665,10 @@
         number_layer {
             display-name = "number_layer";
             bindings = <
-&td_grave_     &ht_bh EXCLAMATION NUMBER_1  &ht_bh AT_SIGN NUMBER_2  &ht_bh HASH NUMBER_3              &ht_bh UNDERSCORE MINUS      &ht_bh EQUAL PLUS                                &mmv MOVE_UP                     &bh_n6f6 F6 0  &bh_n7f7 F7 0  &bh_n8f8 F8 0  &bh_n9f9 F9 0  &bh_n0f10 F10 0  &kp BSPC
-&kp ENTER      &ht_bh DOLLAR NUMBER_4       &ht_bh PERCENT N5        &ht_bh CARET NUMBER_6             &kp LG(MINUS)                &kp LG(PLUS)                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans           &bh_minusf11 F11 0
-&kp BACKSPACE  &ht_bh AMPERSAND N7          &ht_bh ASTERISK N8       &ht_bh LEFT_PARENTHESIS NUMBER_9  &ht_bh RIGHT_PARENTHESIS N0  &dotcom_bh         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME       &kp END        &kp PG_UP      &kp PAGE_DOWN  &kp DELETE       &bh_equalf12 F12 0
-                                                                     &trans                            &trans                       &trans                                                                            &kp INS        &kp DEL        &trans
+&ht_bh TILDE GRAVE  &ht_bh EXCLAMATION NUMBER_1  &ht_bh AT_SIGN NUMBER_2  &ht_bh HASH NUMBER_3              &ht_bh UNDERSCORE MINUS      &ht_bh EQUAL PLUS                                &mmv MOVE_UP                     &bh_n6f6 F6 0  &bh_n7f7 F7 0  &bh_n8f8 F8 0  &bh_n9f9 F9 0  &bh_n0f10 F10 0  &kp BSPC
+&kp ENTER           &ht_bh DOLLAR NUMBER_4       &ht_bh PERCENT N5        &ht_bh CARET NUMBER_6             &kp LG(MINUS)                &kp LG(PLUS)                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans           &bh_minusf11 F11 0
+&kp BACKSPACE       &ht_bh AMPERSAND N7          &ht_bh ASTERISK N8       &ht_bh LEFT_PARENTHESIS NUMBER_9  &ht_bh RIGHT_PARENTHESIS N0  &dotcom_bh         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME       &kp END        &kp PG_UP      &kp PAGE_DOWN  &kp DELETE       &bh_equalf12 F12 0
+                                                                          &trans                            &trans                       &trans                                                                            &kp INS        &kp DEL        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
