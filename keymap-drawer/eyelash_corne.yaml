@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: mo_mouse_layer}
   - {t: '$$mdi:backspace$$', h: mo_mouse_layer}
   - {t: '$$mdi:keyboard-return$$', h: GO_MOUSE}
-  - RGUI
+  - $$mdi:apple-keyboard-option$$
   number_layer:
   - '&td_grave_'
   - {t: '1', h: '!'}
