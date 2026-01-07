@@ -26,7 +26,7 @@ layers:
   - {t: H, h: '$$mdi:menu-left$$'}
   - {t: J, h: '$$mdi:menu-down$$'}
   - {t: K, h: '$$mdi:menu-right$$'}
-  - {t: L, h: '&mkp ENTER'}
+  - {t: L, h: '$$mdi:keyboard-return$$'}
   - {t: ;, h: '&bh_word_del', s: ':'}
   - {t: '''', h: '&macro_all_del', s: '"'}
   - LGUI
