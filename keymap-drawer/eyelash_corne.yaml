@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: GO_MOUSE}
   - $$mdi:apple-keyboard-option$$
   number_layer:
-  - '&td_grave_'
+  - {t: '`', h: '~', s: '~'}
   - {t: '1', h: '!'}
   - {t: '2', h: '@'}
   - {t: '3', h: '#'}
