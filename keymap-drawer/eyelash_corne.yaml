@@ -29,7 +29,7 @@ layers:
   - {t: L, h: L}
   - {t: ;, h: '&bh_word_del', s: ':'}
   - {t: '''', h: '&macro_all_del', s: '"'}
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - {t: Z, h: HOME}
   - {t: X, h: END}
   - {t: C, h: PG UP}
@@ -67,8 +67,8 @@ layers:
   - {t: '4', h: $}
   - {t: '5', h: '%', s: '%'}
   - {t: '6', h: ^}
-  - {t: Gui+-, s: Gui+_}
-  - Gui++
+  - {t: Ctl+-, s: Ctl+_}
+  - Ctl++
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -304,7 +304,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-space$$
   - Gui+$$mdi:arrow-up-bold$$
-  - Gui+Sft+4
+  - Gui+Sft+S
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
