@@ -396,13 +396,13 @@ combos:
 - p: [1, 0, 11, 12]
   k: '&soft_off'
 - p: [30, 31]
-  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  k: Ctl+X
   l: [QWERTY]
 - p: [31, 32]
-  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  k: Ctl+C
   l: [QWERTY]
 - p: [32, 33]
-  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  k: Ctl+V
   l: [QWERTY]
 - p: [17, 18]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
@@ -413,10 +413,10 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [10, 11, 12]
-  k: Gui+Q
+  k: Alt+F4
   l: [QWERTY]
 - p: [15, 16]
-  k: Sft+Gui+K
+  k: Sft+D
   l: [QWERTY]
 - p: [7, 8]
   k: '&macro_double_click'
@@ -432,12 +432,10 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [22, 45]
-  k: RGUI
+  k: $$mdi:apple-keyboard-option$$
   l: [QWERTY]
 - p: [29, 30]
-  k: Gui+Y
+  k: Ctl+Y
 - p: [27, 41]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWERTY]
-- p: [0, 1, 2, 10, 11, 12]
-  k: POWER
