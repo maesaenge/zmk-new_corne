@@ -419,21 +419,21 @@
 
         combo_x {
             timeout-ms = <80>;
-            bindings = <&kp LG(X)>;
+            bindings = <&kp LC(X)>;
             key-positions = <30 31>;
             layers = <0>;
         };
 
         combo_c {
             timeout-ms = <80>;
-            bindings = <&kp LG(C)>;
+            bindings = <&kp LC(C)>;
             key-positions = <31 32>;
             layers = <0>;
         };
 
         combo_paste {
             timeout-ms = <80>;
-            bindings = <&kp LG(V)>;
+            bindings = <&kp LC(V)>;
             key-positions = <32 33>;
             layers = <0>;
         };
@@ -457,13 +457,13 @@
         };
 
         op_alt_f4 {
-            bindings = <&kp LG(Q)>;
+            bindings = <&kp LA(F4)>;
             key-positions = <10 11 12>;
             layers = <0>;
         };
 
         sd_shift_del {
-            bindings = <&kp LS(LG(K))>;
+            bindings = <&kp LS(D)>;
             key-positions = <15 16>;
             layers = <0>;
         };
@@ -497,13 +497,13 @@
         };
 
         hb_alt {
-            bindings = <&kp RGUI>;
+            bindings = <&kp RIGHT_ALT>;
             key-positions = <22 45>;
             layers = <0>;
         };
 
         ctrl_y {
-            bindings = <&kp LG(Y)>;
+            bindings = <&kp LC(Y)>;
             key-positions = <29 30>;
         };
 
@@ -511,11 +511,6 @@
             bindings = <&kp DELETE>;
             key-positions = <27 41>;
             layers = <0>;
-        };
-
-        combo_mac_sleep {
-            bindings = <&kp K_POWER>;
-            key-positions = <0 1 2 10 11 12>;
         };
     };
 
