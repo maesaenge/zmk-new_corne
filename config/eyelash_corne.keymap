@@ -34,6 +34,8 @@
     acceleration-exponent = <1>;
     trigger-period-ms = <5>;
     delay-ms = <0>;
+    x-input-code = <200>;
+    y-input-code = <200>;
 };
 
 &soft_off { hold-time-ms = <2000>; };
