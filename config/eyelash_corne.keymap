@@ -1,5 +1,5 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 200  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 170  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 40    // 10
 
 #define TD_KEYS(name, term_ms, ...) \
     name: behavior_##name { \
@@ -108,7 +108,7 @@
         macro_all_del: macro_all_del {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(RIGHT) &kp LS(LC(LEFT)) &kp BACKSPACE>;
+            bindings = <&kp HOME &kp LS(END)&kp BACKSPACE>;
             label = "MACRO_ALL_DEL";
         };
 
