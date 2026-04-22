@@ -57,12 +57,12 @@ layers:
   - {t: '-', h: _, s: _}
   - {t: +, h: '='}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '&td_n6', h: F6}
-  - {t: '&td_n7', h: F7}
-  - {t: '&td_n8', h: F8}
-  - {t: '&td_n9', h: F9}
-  - {t: '&td_n0', h: F10}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - F1
+  - F2
+  - F3
+  - {t: '[', h: '{', s: '{'}
+  - {t: ']', h: '}', s: '}'}
+  - {t: \, h: '|'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '4', h: $}
   - {t: '5', h: '%', s: '%'}
@@ -72,12 +72,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - F4
+  - F5
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&td_minus', h: F11}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '7', h: '&', s: '&'}
   - {t: '8', h: '*', s: '*'}
@@ -86,17 +86,17 @@ layers:
   - '&dotcom_bh'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - HOME
-  - END
-  - PG UP
-  - PgDn
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '&td_equal', h: F12}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   mo_mouse_layer:
   - Ctl+Sft+$$mdi:keyboard-tab$$
@@ -127,8 +127,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
   - $$mdi:pan-up$$
@@ -139,8 +139,8 @@ layers:
   - $$mdi:pan-down$$
   - PG UP
   - PgDn
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', h: mo_mouse_layer, type: held}
