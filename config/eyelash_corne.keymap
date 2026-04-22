@@ -108,7 +108,7 @@
         macro_all_del: macro_all_del {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp HOME &kp LS(END)&kp BACKSPACE>;
+            bindings = <&kp HOME &kp LS(END) &kp BACKSPACE>;
             label = "MACRO_ALL_DEL";
         };
 
@@ -117,6 +117,20 @@
             #binding-cells = <0>;
             bindings = <&kp LS(LC(LEFT_ARROW)) &kp BACKSPACE>;
             label = "BH_WORD_DEL";
+        };
+
+        macro_ppp: macro_ppp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE>;
+            label = "MACRO_PPP";
+        };
+
+        macro_qqq: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_BRACE>;
+            label = "NEW_MACRO";
         };
     };
 
@@ -532,10 +546,10 @@
         number_layer {
             display-name = "number_layer";
             bindings = <
-&ht_bh TILDE GRAVE  &ht_bh EXCLAMATION NUMBER_1  &ht_bh AT_SIGN NUMBER_2  &ht_bh HASH NUMBER_3              &ht_bh UNDERSCORE MINUS      &ht_bh EQUAL PLUS                                &mmv MOVE_UP                     &bh_n6f6 F6 0  &bh_n7f7 F7 0  &bh_n8f8 F8 0  &bh_n9f9 F9 0  &bh_n0f10 F10 0  &kp BSPC
-&kp ENTER           &ht_bh DOLLAR NUMBER_4       &ht_bh PERCENT N5        &ht_bh CARET NUMBER_6             &kp LC(MINUS)                &kp LC(PLUS)                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans           &bh_minusf11 F11 0
-&kp BACKSPACE       &ht_bh AMPERSAND N7          &ht_bh ASTERISK N8       &ht_bh LEFT_PARENTHESIS NUMBER_9  &ht_bh RIGHT_PARENTHESIS N0  &dotcom_bh         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HOME       &kp END        &kp PG_UP      &kp PAGE_DOWN  &kp DELETE       &bh_equalf12 F12 0
-                                                                          &trans                            &trans                       &trans                                                                            &kp INS        &kp DEL        &trans
+&ht_bh TILDE GRAVE  &ht_bh EXCLAMATION NUMBER_1  &ht_bh AT_SIGN NUMBER_2  &ht_bh HASH NUMBER_3              &ht_bh UNDERSCORE MINUS      &ht_bh EQUAL PLUS                                &mmv MOVE_UP                     &kp F1  &kp F2  &kp F3  &ht_bh LEFT_BRACE LEFT_BRACKET  &ht_bh RIGHT_BRACE RIGHT_BRACKET  &ht_bh PIPE NON_US_BACKSLASH
+&kp ENTER           &ht_bh DOLLAR NUMBER_4       &ht_bh PERCENT N5        &ht_bh CARET NUMBER_6             &kp LC(MINUS)                &kp LC(PLUS)                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F4  &kp F5  &kp F6  &trans                          &trans                            &trans
+&kp BACKSPACE       &ht_bh AMPERSAND N7          &ht_bh ASTERISK N8       &ht_bh LEFT_PARENTHESIS NUMBER_9  &ht_bh RIGHT_PARENTHESIS N0  &dotcom_bh         &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F7  &kp F8  &kp F9  &kp F10                         &kp F11                           &kp F12
+                                                                          &trans                            &trans                       &trans                                                                            &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -546,7 +560,7 @@
             bindings = <
 &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &td_mb_src      &mmv MOVE_UP    &td_down_up                             &kp UP                &td_mb_src      &mmv MOVE_UP    &td_down_up      &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)
 &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT               &kp LEFT  &kp ENTER  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LCTRL        &kp LEFT_SHIFT  &kp PAGE_UP      &kp PAGE_DOWN   &msc SCRL_UP    &msc SCRL_DOWN   &kp SPACE              &kp DOWN              &msc SCRL_UP    &msc SCRL_DOWN  &kp PG_UP        &kp PAGE_DOWN    &kp LEFT_SHIFT  &kp LCTRL
+&trans           &trans          &kp PAGE_UP      &kp PAGE_DOWN   &msc SCRL_UP    &msc SCRL_DOWN   &kp SPACE              &kp DOWN              &msc SCRL_UP    &msc SCRL_DOWN  &kp PG_UP        &kp PAGE_DOWN    &trans          &trans
                                                   &kp LGUI        &trans          &lt 2 SPACE                                                   &lt 2 ENTER     &trans          &kp RALT
             >;
 
