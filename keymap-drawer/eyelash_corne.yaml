@@ -27,8 +27,8 @@ layers:
   - {t: J, h: '$$mdi:menu-down$$'}
   - {t: K, h: '$$mdi:menu-right$$'}
   - {t: L, h: L}
-  - {t: ;, h: ':', s: ':'}
-  - {t: '''', h: '"', s: '"'}
+  - {t: ;, h: '&bh_word_del', s: ':'}
+  - {t: '''', h: '&macro_all_del', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: X, h: HOME}
