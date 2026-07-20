@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: mo_mouse_layer}
   - {t: '$$mdi:backspace$$', h: mo_mouse_layer}
   - {t: '$$mdi:keyboard-return$$', h: temp_fun}
-  - F18
+  - Ctl+$$mdi:keyboard-space$$
   number_layer:
   - {t: '`', h: '~', s: '~'}
   - {t: '1', h: '!'}
@@ -383,7 +383,7 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [22, 45]
-  k: F18
+  k: Ctl+$$mdi:keyboard-space$$
   l: [QWERTY]
 - p: [29, 30]
   k: Gui+Y
