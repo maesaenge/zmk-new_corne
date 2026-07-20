@@ -9,7 +9,7 @@ layers:
   - {t: T, h: Sft+T}
   - $$mdi:arrow-up-bold$$
   - {t: Y, h: '&mkp MB1'}
-  - {t: U, h: '$$mdi:menu-up$$'}
+  - {t: U, h: '$$mdi:arrow-up-bold$$'}
   - {t: I, h: '&mkp MB2'}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
@@ -23,10 +23,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: H, h: '$$mdi:menu-left$$'}
-  - {t: J, h: '$$mdi:menu-down$$'}
-  - {t: K, h: '$$mdi:menu-right$$'}
-  - {t: L, h: L}
+  - {t: H, h: '$$mdi:arrow-left-bold$$'}
+  - {t: J, h: '$$mdi:arrow-down-bold$$'}
+  - {t: K, h: '$$mdi:arrow-right-bold$$'}
+  - L
   - {t: ;, h: '&bh_word_del', s: ':'}
   - {t: '''', h: '&macro_all_del', s: '"'}
   - LGUI
