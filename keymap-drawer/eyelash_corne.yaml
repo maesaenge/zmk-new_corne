@@ -29,7 +29,7 @@ layers:
   - {t: L, h: L}
   - {t: ;, h: '&bh_word_del', s: ':'}
   - {t: '''', h: '&macro_all_del', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - LGUI
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: X, h: HOME}
   - {t: C, h: END}
@@ -347,13 +347,13 @@ combos:
 - p: [1, 0, 11, 12]
   k: '&soft_off'
 - p: [30, 31]
-  k: Ctl+X
+  k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
 - p: [31, 32]
-  k: Ctl+C
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
 - p: [32, 33]
-  k: Ctl+V
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
 - p: [17, 18]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
@@ -364,10 +364,10 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [10, 11, 12]
-  k: Alt+F4
+  k: Gui+Q
   l: [QWERTY]
 - p: [15, 16]
-  k: Sft+D
+  k: {t: 'Gui+$$mdi:backspace$$', type: backspace}
   l: [QWERTY]
 - p: [7, 8]
   k: '&macro_double_click'
@@ -383,10 +383,10 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [22, 45]
-  k: $$mdi:apple-keyboard-option$$
+  k: F18
   l: [QWERTY]
 - p: [29, 30]
-  k: Ctl+Y
+  k: Gui+Y
 - p: [27, 41]
   k: $$mdi:backspace-reverse-outline$$
   l: [QWERTY]
