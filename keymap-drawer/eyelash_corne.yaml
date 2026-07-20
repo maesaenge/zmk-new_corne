@@ -30,7 +30,7 @@ layers:
   - {t: ;, h: '&bh_word_del', s: ':'}
   - {t: '''', h: '&macro_all_del', s: '"'}
   - LGUI
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Z, h: '$$mdi:keyboard-space$$'}
   - {t: X, h: HOME}
   - {t: C, h: END}
   - {t: V, h: PG UP}
@@ -67,8 +67,8 @@ layers:
   - {t: '4', h: $}
   - {t: '5', h: '%', s: '%'}
   - {t: '6', h: ^}
-  - {t: Ctl+-, s: Ctl+_}
-  - Ctl++
+  - {t: Gui+-, s: Gui+_}
+  - Gui++
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -302,9 +302,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:keyboard-space$$
-  - Gui+$$mdi:arrow-up-bold$$
-  - Gui+Sft+S
+  - Gui+Sft+3
+  - Alt+Gui+$$mdi:arrow-up-bold$$
+  - Gui+Sft+4
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
@@ -317,9 +317,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+$$mdi:arrow-left-bold$$
-  - Gui+$$mdi:arrow-down-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - Alt+Gui+$$mdi:arrow-down-bold$$
+  - Gui+Alt+$$mdi:arrow-right-bold$$
   - $$mdi:skip-previous$$
   - $$mdi:skip-next$$
   - PLAY PAUSE
