@@ -355,11 +355,6 @@ combos:
 - p: [32, 33]
   k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [QWERTY]
-- p: [17, 18]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [22, 23]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [QWERTY]
 - p: [10, 11]
   k: $$mdi:keyboard-esc$$
   l: [QWERTY]
